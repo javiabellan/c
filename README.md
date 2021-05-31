@@ -29,8 +29,14 @@
 ##  Nand to Tetris (Coursera free course)
 #### Build a Modern Computer from First Principles (project-centered course)
 
-- Part 1 (HARDWARE): https://www.coursera.org/learn/build-a-computer
-- Part 2 (SOFTWARE): https://www.coursera.org/learn/nand2tetris2
+- Part 1 (**HARDWARE**): **[From NAND to the HACK computer](https://www.coursera.org/learn/build-a-computer)**
+  - Week 1: **Elementary Logic Gates** (Nand, Not, And, Or, Xor, Mux, Dmux)
+  - Week 2: **Arithmetic Logic Unit** (Halfdder, FullAdder, Add16, Inc16, ALU)
+  - Week 3: **Registers and Memory** (Bit Register, RAM8, RAM64, RAM512)
+  - Week 4: **Writting low-level programs**
+  - Week 5: **Computer Architecture** (Memory, CPU, Computer)
+  - Week 6: **Develop an Assembler**
+- Part 2 (**SOFTWARE**): **[From the HACK computer to Tetris](https://www.coursera.org/learn/nand2tetris2)**
 - Course book: The Elements of Computing Systems: Building a Modern Computer from First Principles
 
 
