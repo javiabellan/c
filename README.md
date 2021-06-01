@@ -26,6 +26,8 @@
 
 <h1 align="center">Operating Sytems, Assembly, Hardware</h1>
 
+## [Profesor RetroMan](https://www.youtube.com/c/ProfesorRetroMan/videos) (canal youtube)
+
 ##  Nand to Tetris (Coursera free course)
 #### Build a Modern Computer from First Principles (project-centered course)
 
