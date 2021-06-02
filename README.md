@@ -8,11 +8,14 @@
 - OpenCV
 - Eigen (linear algebra)
 - Ceres Solver
+- OR-Tools
 - OpenGL
 - OpenCL
 - WebAssembly
 - Cython
 - CUDA
+
+## Competitive programming 
 
 ## References
 
