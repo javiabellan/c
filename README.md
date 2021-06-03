@@ -31,6 +31,9 @@
 
 ## [Profesor RetroMan](https://www.youtube.com/c/ProfesorRetroMan/videos) (canal youtube)
 
+Recommended book by Francisco Gallego: **Effective C++** by Scott Meyers.
+
+
 ##  Nand to Tetris (Coursera free course)
 #### Build a Modern Computer from First Principles (project-centered course)
 
