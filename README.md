@@ -9,7 +9,7 @@
 - Eigen (linear algebra)
 - Ceres Solver
 - OR-Tools
-- OpenGL
+- SDL & OpenGL
 - OpenCL
 - WebAssembly
 - Cython
