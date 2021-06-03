@@ -31,8 +31,15 @@
 
 ## [Profesor RetroMan](https://www.youtube.com/c/ProfesorRetroMan/videos) (canal youtube)
 
-Recommended book by Francisco Gallego: **Effective C++** by Scott Meyers.
+Recommended path by Francisco Gallego:
 
+1. Assambly **PARA ENTENDER LA MÁQUINA!!!**
+2. Old C++:
+   - `BOOK` **Effective C++** by Scott Meyers. (C++ 09
+3. Modern C++:
+   - `BOOK` **Effective Modern C++** by Scott Meyers.
+   - Templates de c++
+   - Cualquier charla de Scott Meyers.
 
 ##  Nand to Tetris (Coursera free course)
 #### Build a Modern Computer from First Principles (project-centered course)
