@@ -45,9 +45,9 @@ Recommended path by Francisco Gallego:
      - `ARM` Hard
    - 1.4 Ends with 64 bits assambler -> DO A PROGRAM
 3. Old C++:
-   - `BOOK` **Effective C++** by Scott Meyers. (C++ 09
+   - `BOOK` **Effective C++** by Scott Meyers. (C++ 98)
 4. Modern C++:
-   - `BOOK` **Effective Modern C++** by Scott Meyers.
+   - `BOOK` **Effective Modern C++** by Scott Meyers. (C++ 14)
    - Templates de c++
    - Cualquier charla de Scott Meyers.
 
