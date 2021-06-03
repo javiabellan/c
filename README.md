@@ -35,8 +35,8 @@ Recommended path by Francisco Gallego:
 
 1. Assambly **PARA ENTENDER LA MÁQUINA!!!**
    - `MIPS` Very Easy
-   - `Z80` Esay
-   - `6502` Medium
+   - `Z80` Esay (parent of `X86`)
+   - `6502` Easy
    - `68000` Medium
    - `X86` Hard
    - `ARM` Hard
