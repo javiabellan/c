@@ -34,12 +34,16 @@
 Recommended path by Francisco Gallego:
 
 1. Assambly **PARA ENTENDER LA MÁQUINA!!!**
-   - `MIPS` Very Easy
-   - `Z80` Esay (parent of `X86`)
-   - `6502` Easy
-   - `68000` Medium
-   - `X86` Hard
-   - `ARM` Hard
+   - 1.1 Start with 8 bits assambler
+     - `Z80` Esay (parent of `X86`)
+     - `6502` Easy
+   - 1.2 Continue with 16 bits assambler 
+     - `MIPS` Very Easy
+     - `68000` Medium
+   - 1.3 Continue with 32 bits assambler 
+     - `X86` Hard
+     - `ARM` Hard
+   - 1.4 Ends with 64 bits assambler
 3. Old C++:
    - `BOOK` **Effective C++** by Scott Meyers. (C++ 09
 4. Modern C++:
