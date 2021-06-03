@@ -34,9 +34,15 @@
 Recommended path by Francisco Gallego:
 
 1. Assambly **PARA ENTENDER LA MÁQUINA!!!**
-2. Old C++:
+   - `MIPS` Very Easy
+   - `Z80` Esay
+   - `6502` Medium
+   - `68000` Medium
+   - `X86` Hard
+   - `ARM` Hard
+3. Old C++:
    - `BOOK` **Effective C++** by Scott Meyers. (C++ 09
-3. Modern C++:
+4. Modern C++:
    - `BOOK` **Effective Modern C++** by Scott Meyers.
    - Templates de c++
    - Cualquier charla de Scott Meyers.
