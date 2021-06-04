@@ -14,6 +14,10 @@
 |-----|
 ```
 
+Z80 is LITTLE ENDIAN: Bytes are saved in reverse order in memory
+
+Bytes 45 67 FA -----> Memory FA 67 45
+
 # z80 Registers
 
 
