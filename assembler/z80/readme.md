@@ -53,7 +53,7 @@ There are 256 different instrucctions
 | 76       | HALT         | Wait 0.003 secs     |   2   |                  |
 
 
-### Jumps
+### ↪️ Jumps
 
 > - **Jump Absolute**: Change the **`PC`** (Program Counter) to a given memory adress.
 > - **Jump Relative**: Sum to the current **`PC`** (Program Counter) a ±128 value.
@@ -66,7 +66,7 @@ There are 256 different instrucctions
 | 20 __    | JR NZ, __    | Jump Relative If Not Zero |   2   | ±128 jump | In range loop |
 
 
-### From CPU back to memory
+### Write in memory
 
 | Opcode   | Instruction  | Description         | Bytes | Number of cycles |                             |
 |:---------|:-------------|---------------------|:-----:|------------------|-----------------------------|
