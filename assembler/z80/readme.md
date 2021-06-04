@@ -12,21 +12,34 @@
 |     |===/16 bits/===>|     |
 |     |                |-----|
 |-----|
+
+
+         CPU z80
+|-----------------------|                    RAM (64KB) = 65536 Bytes
+|                       |                  |-------------------------|
+|   General Registers   |                  |0000...    OS     ...0FFF|
+|  |--------|--------|  |<================>|1000...    OS     ...1FFF|
+|  |    A   |  Flags |  |<=== DATA BUS ===>|2000...    OS     ...2FFF|
+|  |--------|--------|  |<===  8 BITS  ===>|3000...    OS     ...3FFF|
+|  |    B   |    C   |  |<================>|4000...  PROGRAM  ...4FFF| OUR PROGRAM starts at 4000 fowards
+|  |--------|--------|  |                  |5000...  PROGRAM  ...5FFF|
+|  |    D   |    E   |  |                  |6000...  PROGRAM  ...6FFF|
+|  |--------|--------|  |=================>|7000...     ~     ...7FFF|
+|  |    H   .    L   |  |=================>|8000...     ~     ...8FFF|
+|  |--------|--------|  |=================>|9000...     ~     ...9FFF|
+|                       |== ADRESS BUS ===>|A000...   STACK   ...AFFF|
+|  |-----------------|  |==   16 BITS  ===>|B000...   STACK   ...BFFF| STACK starts at BFFF backwards
+|  | Program Counter |  |=================>|C000...   VIDEO   ...CFFF| VIDEO starts at C000 fowards
+|  |-----------------|  |=================>|D000...   VIDEO   ...DFFF|
+|  |  Stack Pointer  |  |=================>|E000...   VIDEO   ...EFFF|
+|  |-----------------|  |                  |F000...   VIDEO   ...FFFF|
+|                       |                  |-------------------------|
+|-----------------------|
 ```
 
-Z80 is LITTLE ENDIAN: Bytes are saved in reverse order in memory
-
-Bytes 45 67 FA -----> Memory FA 67 45
-
-# z80 Registers
-
-
-
-
-
-
-
-
+> Z80 is LITTLE ENDIAN: Bytes are saved in reverse order in memory
+> 
+> Bytes 45 67 FA -----> Memory FA 67 45
 
 
 # Instruction Set
