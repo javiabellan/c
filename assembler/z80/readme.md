@@ -55,8 +55,8 @@ There are 256 different instrucctions
 
 ### Jumps
 
-> - **Jump Absolute**: Change the **`PC`** (Program conter) to a given memory adress.
-> - **Jump Relative**: Sum to the current **`PC`** (Program conter) a ±128 value.
+> - **Jump Absolute**: Change the **`PC`** (Program Counter) to a given memory adress.
+> - **Jump Relative**: Sum to the current **`PC`** (Program Counter) a ±128 value.
 
 | Opcode   | Instruction  | Description               | Bytes | Notes 1   | Notes 2       |
 |:---------|:-------------|---------------------------|:-----:|-----------|---------------|
