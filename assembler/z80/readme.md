@@ -77,6 +77,13 @@ There are 256 different instrucctions
 
 
 
+# Assembly automatization extras
+
+There are several things from assembly language that **Dont exists in machine code**:
+
+- `$` Dollar sign to compute current memery psition of the program
+- Function labels
+
 
 
 
