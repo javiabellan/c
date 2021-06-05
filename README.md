@@ -51,6 +51,12 @@ Recommended path by Francisco Gallego:
    - Templates de c++
    - Cualquier charla de Scott Meyers.
 
+
+
+## ARM assembly
+https://www.youtube.com/channel/UCY0sQ9hpSR6yZobt1qOv6DA/videos
+
+
 ##  Nand to Tetris (Coursera free course)
 #### Build a Modern Computer from First Principles (project-centered course)
 
