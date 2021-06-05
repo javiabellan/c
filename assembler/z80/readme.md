@@ -35,6 +35,8 @@
 
 There are 256 different instrucctions
 
+`n` can be a decimal number eg: `67` or a hex numeber with #: `#B3` 
+
 ### Write CPU registers
 
 | Opcode   | Instruction  | Description         | Bytes | Number of cycles |
