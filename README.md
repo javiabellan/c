@@ -66,6 +66,9 @@ Recommended path by Francisco Gallego:
 
 
 
+## Sapce invaders in x86
+https://www.youtube.com/watch?v=TVvTDjMph1M
+
 ## ARM assembly
 https://www.youtube.com/channel/UCY0sQ9hpSR6yZobt1qOv6DA/videos
 
