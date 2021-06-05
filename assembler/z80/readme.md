@@ -61,12 +61,14 @@ There are 256 different instrucctions
 > - **Jump Absolute**: Change the **`PC`** (Program Counter) to a given memory adress.
 > - **Jump Relative**: Sum to the current **`PC`** (Program Counter) a ±128 value.
 
-| Opcode   | Instruction  | Description               | Bytes | Notes 1   | Notes 2       |
-|:---------|:-------------|---------------------------|:-----:|-----------|---------------|
-| C3 __ __ | JP ____      | Jump Absolute             |   3   | Big jump  | Infinite loop |
-| 18 __    | JR __        | Jump Relative             |   2   | ±128 jump | Infinite loop |
-| C2 __ __ | JP NZ ____   | Jump Absolute If Not Zero |   3   | Big jump  | In range loop |
-| 20 __    | JR NZ, __    | Jump Relative If Not Zero |   2   | ±128 jump | In range loop |
+| Opcode   | Instruction  | Description                    | Bytes | Notes 1   | Notes 2       |
+|:---------|:-------------|--------------------------------|:-----:|-----------|---------------|
+| C3 __ __ | JP ____      | Jump Absolute                  |   3   | Big jump  | Infinite loop |
+| 18 __    | JR __        | Jump Relative                  |   2   | ±128 jump | Infinite loop |
+| C2 __ __ | JP NZ ____   | Jump Absolute If Not Zero      |   3   | Big jump  | In range loop |
+| 20 __    | JR NZ, __    | Jump Relative If Not Zero      |   2   | ±128 jump | In range loop |
+| CD __ __ | CALL ____    | Jump & save next addr on stack |   3   |           |               |
+| C9       | RET          | Jump back to last stack addr   |   1   |           |               |
 
 
 ### Write in memory
