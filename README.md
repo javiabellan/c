@@ -15,6 +15,19 @@
 - Cython
 - CUDA
 
+
+## Efficient loop in C
+
+```c
+int a = 10 + 1
+
+while(--a)
+{
+    // in range loop of 10 iters
+}
+```
+
+
 ## Competitive programming 
 
 ## References
