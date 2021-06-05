@@ -35,7 +35,10 @@
 
 There are 256 different instrucctions
 
-`n` can be a decimal number eg: `67` or a hex numeber with #: `#B3` 
+### Numbers: n
+- `12`: for writing 12 in decimal.
+- `#0C`: for writing 12 in hexadecimal.
+- `%00001100`: for writing 12 in binary.
 
 ### Write CPU registers
 
@@ -81,7 +84,12 @@ There are 256 different instrucctions
 | 22 __ __ | LD (ADR), LH | *ADR = LH           |   3   |                  |                             |
 | 36 __    | LD (HL), n   | *LH = VALUE         |   2   |                  |                             |
 
-
+> #### Assembly utility
+> Write directly on memory with:
+> |          |                               | Example                                                                           |
+> |----------|-------------------------------|-----------------------------------------------------------------------------------|
+> | **`DB`** | **D**efine **B**yte (8 bits)  | `DB #30, 10, %01100110` writes on memory: `30` `0A` `66`                          |
+> | **`DW`** | **D**efine **W**ord (16 bits) | `DW #C000, 64, %11110000` writes: `00 C0` `40 00` `00 FF` (because little endian) |  
 
 # Assembly automatization extras
 
