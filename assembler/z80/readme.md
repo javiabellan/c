@@ -68,25 +68,17 @@ There are 256 different instrucctions
 
 > - **Jump Absolute**: Change the **`PC`** (Program Counter) to a given memory adress.
 > - **Jump Relative**: Sum to the current **`PC`** (Program Counter) a ±128 value.
-
-### Always jumps
-
-
-| Opcode   | Instruction  | Pseudocode              | Description                    | Bytes | Notes          |
-|:---------|:-------------|:------------------------|:-------------------------------|:-----:|----------------|
-| C3 __ __ | JP ____      | `PC = ____`             | Jump Absolute                  |   3   | Big jump       |
-| 18 __    | JR __        | `PC = PC + __`          | Jump Relative                  |   2   | ±128 jump      |
-| CD __ __ | CALL ____    | `push(PC+1); PC = ____` | Jump & save next addr on stack |   3   | Call function  |
-| C9       | RET          | `PC = pop()`            | Jump back to last stack addr   |   1   | Return from fn |
-
-
-#### Conditional jumps
-
-| Opcode   | Instruction  | Pseudocode              | Description                    | Bytes | Notes               |
-|:---------|:-------------|:------------------------|:-------------------------------|:-----:|---------------------|
-| C2 __ __ | JP NZ ____   | `if NZ: PC = ____`      | Jump Absolute If Not Zero      |   3   | Used for range loop |
-| 20 __    | JR NZ, __    | `if NZ: PC = PC + __`   | Jump Relative If Not Zero      |   2   | Used for range loop |
-| C8       | RET Z        | `if Z: PC = pop()`      | Jump back to last stack addr   |   1   |                     |
+> 
+| Opcode   | Instruction  | Pseudocode              | Flags Cond. | Description                    | Bytes |
+|:---------|:-------------|:------------------------|:------------|:-------------------------------|:-----:|
+| C3 __ __ | JP ____      | `PC = ____`             |             | Jump Absolute (Big jump)       |   3   |
+| 18 __    | JR __        | `PC = PC + __`          |             | Jump Relative (±128 jump)      |   2   |
+| CD __ __ | CALL ____    | `push(PC+1); PC = ____` |             | Jump & save next addr on stack |   3   |
+| C9       | RET          | `PC = pop()`            |             | Jump back to last stack addr   |   1   |
+| C8       | RET Z        | `if Z: PC = pop()`      | If Zero     | Jump to last stack addr        |   1   |
+| C2 __ __ | JP NZ ____   | `if NZ: PC = ____`      | If Not Zero | Jump Absolute (Big jump)       |   3   |
+| 20 __    | JR NZ, __    | `if NZ: PC = PC + __`   | If Not Zero | Jump Relative (±128 jump)      |   2   |
+| C0       | RET NZ       | `if NZ: PC = pop()`     | If Not Zero | Jump to last stack addr        |   1   |
 
 
 ### Write in memory
