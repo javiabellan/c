@@ -58,6 +58,7 @@ There are 256 different instrucctions
 | 3C       | INC A        | A = A + 1           |   1   |                  |
 | 3D       | DEC A        | A = A - 1           |   1   |                  |
 | 23       | INC HL       | HL = HL + 1         |   1   |                  |
+| EB.      | EX DE,HL     | Exchange DE and HL values |1|                  |
 | 76       | HALT         | Wait 0.003 secs     |   2   |                  |
 
 
