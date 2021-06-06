@@ -31,7 +31,7 @@
 > Bytes 45 67 FA -----> Memory FA 67 45
 
 
-# Instruction Set
+# [Instruction Set](https://clrhome.org/table)
 
 There are 256 different instrucctions
 
@@ -51,15 +51,17 @@ There are 256 different instrucctions
 | 3A __ __ | LD A, (ADR)  | A = *ADR            |   3   |                  |
 
 
-### Math operations in CPU
+### Operations in CPU
 
-| Opcode   | Instruction  | Description         | Bytes | Number of cycles |
-|:---------|:-------------|---------------------|:-----:|------------------|
-| 3C       | INC A        | A = A + 1           |   1   |                  |
-| 3D       | DEC A        | A = A - 1           |   1   |                  |
-| 23       | INC HL       | HL = HL + 1         |   1   |                  |
-| EB.      | EX DE,HL     | Exchange DE and HL values |1|                  |
-| 76       | HALT         | Wait 0.003 secs     |   2   |                  |
+| Opcode   | Instruction  | Description         | Bytes | Cycles | Modifies Flags |
+|:---------|:-------------|---------------------|:-----:|--------|----------------|
+| 3C       | INC A        | A = A + 1           |   1   |        |     |
+| 3D       | DEC A        | A = A - 1           |   1   |        |     |
+| 23       | INC HL       | HL = HL + 1         |   1   |        |     |
+| D6 __    | SUB n        | A = A - n           |   2   |  7     | yes |
+| FE __    | CP n         | A - n               |   2   |  7     | yes |
+| EB.      | EX DE,HL     | Exchange DE and HL values |1|        |     |
+| 76       | HALT         | Wait 0.003 secs     |   2   |        |     |
 
 
 ### ↪️ Jumps
