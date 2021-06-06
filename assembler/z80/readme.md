@@ -42,13 +42,14 @@ There are 256 different instrucctions
 
 ### Write CPU registers
 
-| Opcode   | Instruction  | Description         | Bytes | Number of cycles |
-|:---------|:-------------|---------------------|:-----:|------------------|
-| 3E __    | LD A, n      | A = 8BITS_VALUE     |   2   |                  |
-| 06 __    | LD B, n      | B = 8BITS_VALUE     |   2   |                  |
-| 26 __    | LD H, n      | H = 8BITS_VALUE     |   2   |                  |
-| 21 __ __ | LD LH, nn    | LH = 16BITS_VALUE   |   3   |                  |
-| 3A __ __ | LD A, (ADR)  | A = *ADR            |   3   |                  |
+| Opcode   | Instruction  | Description         | Bytes | Cycles | Notes   |
+|:---------|:-------------|:--------------------|:-----:|:------:|:--------|
+| 3E __    | LD A, n      | A = 8BITS_VALUE     |   2   |        |         |
+| 06 __    | LD B, n      | B = 8BITS_VALUE     |   2   |        |         |
+| 26 __    | LD H, n      | H = 8BITS_VALUE     |   2   |        |         |
+| 21 __ __ | LD LH, nn    | LH = 16BITS_VALUE   |   3   |        |         |
+| 3A __ __ | LD A, (ADR)  | A = *ADR            |   3   |        |         |
+| EB       | EX DE,HL     | DE = HL; HL = DE    |   1   |        | **Ex**change DE and HL values. |
 
 
 ### Operations in CPU
@@ -60,7 +61,6 @@ There are 256 different instrucctions
 | 23       | INC HL       | HL = HL + 1         |   1   |        |     |
 | D6 __    | SUB n        | A = A - n           |   2   |  7     | yes |
 | FE __    | CP n         | A - n               |   2   |  7     | yes |
-| EB       | EX DE,HL     | Exchange DE and HL values |1|        |     |
 | 76       | HALT         | Wait 0.003 secs     |   1   |   4    |     |
 
 
