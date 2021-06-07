@@ -1,11 +1,13 @@
 ## Memoria de un programa
 
-* Estática: Tamaño fijo durante toda la ejecución del programa
-  * text: Código (lógica) del programa
-  * data: Varibles globales inicializadas
-  * bss: Varibles globales no inicializadas
-* Automática (stack): Llamadas a funciones
-* Dinámica (heap): Memoria explicitamente alojada y desalojada
+- Estática: Tamaño fijo durante toda la ejecución del programa
+  - text: Código (lógica) del programa
+  - data: Varibles globales inicializadas
+  - bss: Varibles globales no inicializadas
+- Automática (stack): Llamadas a funciones
+- Dinámica (heap): Memoria explicitamente alojada y desalojada
+  - `malloc`, `free` in **C**
+  - `new`, `delete` in **C++**
 
 ![memory](https://i.stack.imgur.com/wn0oN.jpg)
 
