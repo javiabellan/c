@@ -38,6 +38,7 @@ while(--a)
 - **C++**
   - [Udacity C++ nanodegree](https://www.udacity.com/course/c-plus-plus-nanodegree--nd213)
   - https://www.learncpp.com
+  - Video: [C++ for fun ... ctional programmers... ??? by Harald Achitz](https://www.youtube.com/watch?v=2vJfJE4K0zg)
 - Books
   - Old C++:
     - `BOOK` **Effective C++** by Scott Meyers. (C++ 98)
