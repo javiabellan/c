@@ -5,7 +5,9 @@
 - Pytorch
   - ATen (tensors on the CPU & GPU)
   - Autograd (automatic differentiation)
+- TensorRT 
 - OpenCV
+- GStreamer
 - Eigen (linear algebra)
 - Ceres Solver
 - OR-Tools
