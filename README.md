@@ -41,6 +41,10 @@ while(--a)
   - [Udacity C++ nanodegree](https://www.udacity.com/course/c-plus-plus-nanodegree--nd213)
   - https://www.learncpp.com
   - Video: [C++ for fun ... ctional programmers... ??? by Harald Achitz](https://www.youtube.com/watch?v=2vJfJE4K0zg)
+- **Profesor Retroman**
+  - Curso 1: [Programación en C++ [2016-19]](https://www.youtube.com/playlist?list=PLmxqg54iaXrjhvQy_GbzYdvURV4sKs0CT): Programación de C++ nivel intermedio.
+  - Curso 2: [C++ : Programación de Videojuegos [2019/20]](https://www.youtube.com/playlist?list=PLmxqg54iaXrhTqZxylLPo0nov0OoyJqiS): Videojuego (Motor ECS) desde 0
+  - Curso 3: [C++ : Programación de Videojuegos [2020/21]](https://www.youtube.com/playlist?list=PLmxqg54iaXrjOOWpeHVsV-eE2TdeQLbLD): Inteligencia Artificial del Videojuego
 - Books
   - Old C++:
     - `BOOK` **Effective C++** by Scott Meyers. (C++ 98)
