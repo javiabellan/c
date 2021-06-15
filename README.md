@@ -1,5 +1,22 @@
 <h1 align="center">C and C++</h1>
 
+
+## Types
+
+- C and C++ types
+  - **int**
+  - **char**
+  - **array** Contiguos allocated in memory
+  - **enum**
+- Only C++ types
+  - **String**
+  - **Vector** Contiguos allocated in memory
+  - **Linked list**: Sparse allocated in memory
+  - **Hash table**
+  - **Map**
+
+> `auto` keyword to do automatic type inference.
+
 ## Libraries
 
 - Pytorch
