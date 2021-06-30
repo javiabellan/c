@@ -28,7 +28,7 @@
 - Eigen (linear algebra)
 - Ceres Solver
 - OR-Tools
-- SDL & OpenGL
+- SFML, SDL & OpenGL
 - OpenCL
 - WebAssembly
 - Cython
